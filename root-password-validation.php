@@ -14,7 +14,7 @@ add_action(
             add_action(
                 'admin_notices', function () {
                     echo '<div class="notice notice-warning is-dismissible">
-             <p>Root Password plugin needs "Advanced Product Fields for Woocommerce" active to work.</p>
+                <p><code>Root Password Validation</code> plugin needs "Advanced Product Fields for Woocommerce" active to work.</p>
          </div>';
                 }
             );
